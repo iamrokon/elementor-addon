@@ -1,0 +1,114 @@
+/*
+Theme Name: Twenty Twenty-One Child
+Theme URI: Your child theme's URL
+Description: Child theme for Twenty Twenty-One
+Author: Rokon
+Author URI: Your website's URL
+Template: twentytwentyone
+Version: 1.0
+*/
+ul.menu {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin: 0;
+    padding: 0;
+}
+
+ul.menu li a {
+    padding: 10px 20px;
+    display: block;
+}
+
+.little-icon .elementor-widget-icon .elementor-icon-wrapper {
+    width: 36px;
+    height: 36px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.gff-single-promo-box {
+    border: 2px solid #bfaa8b;
+    border-radius: 10px;
+    padding: 15px;
+    text-align: center;
+    background-color: #fffcf8;
+}
+
+.gff-single-promo-box h4 {
+    color: #E7DED0;
+    margin-bottom: 0px;
+    font-size: 16px;
+}
+
+.gff-single-promo-box h3 {
+    font-size: 24px;
+    margin-bottom: 0px;
+}
+
+.promo-box-stars {
+    font-size: 12px;
+}
+
+.promo-box-img {
+    margin: 10px 0;
+}
+.gff-promo-boxes-yes img {
+    margin-left: 30%;
+}
+
+a.promo-box-btn {
+    display: inline-block;
+    background: #9e8968;
+    padding: 6px 20px;
+    color: #fff;
+    border-radius: 5px;
+    margin-bottom: 15px;
+    border: 2px solid #9e8968;
+}
+
+a.promo-box-btn.promo-box-btn-2 {
+    background-color: #fff;
+    color: #9e8968;
+    margin-bottom: 0;
+}
+.gff-single-promo-box-wrapper {
+    width: 250px;
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-bottom: 20px;
+}
+.gff-promo-boxes {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+/* .gff-promo-boxes .slick-list {
+    overflow: inherit;
+} */
+
+ul.slick-dots button {
+    display: none;
+}
+
+ul.slick-dots li {
+    height: 5px;
+    width: 100px;
+    list-style: none;
+    position: relative;
+    top: -3.5px;
+    cursor: pointer;
+}
+
+ul.slick-dots {
+    display: flex;
+    border-top: 2px solid #d1c0a8;
+    list-style: none;
+}
+
+ul.slick-dots li.slick-active {
+    background: #000;
+}
